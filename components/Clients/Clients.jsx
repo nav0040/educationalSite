@@ -2,7 +2,7 @@ import React from 'react'
 
 const Clients = () => {
   return (
-    <div className='md:flex flex flex-col m-10 justify-center items-center gap-16 my-16'>
+    <div className='md:flex flex flex-col md:flex-row m-10 justify-center items-center gap-16 my-16'>
         <div className='md:border-r-2 px-8  flex flex-col justify-center items-center gap-5'>
             <h2 className='font-[600] text-[54px] leading-[37.8px]'>8Years</h2>
             <span className='font-[400] text-[34px] leading-[41.4px]'>of Success</span>

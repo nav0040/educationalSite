@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import { FaPlay } from 'react-icons/fa'
 
 const CompanyDetails = () => {
     return (
@@ -11,7 +12,7 @@ const CompanyDetails = () => {
                     <h2 className='font-[500] text-[12px] md:text-[54px] leading-[66.42px] mb-10'>
                         Lorem Ipsum dolor sit consectetur
                     </h2>
-                    <span className='font-[400] text-[10px] md:text-[20px] leading-[34px]'>
+                    <span className='font-[300] text-[10px] md:text-[20px] leading-[34px]'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis. Pellentesque iaculis elit lorem, et varius ipsum dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis. Pellentesque iaculis elit lorem, et varius ipsum dictum.
                     </span>
                 </div>
@@ -20,12 +21,15 @@ const CompanyDetails = () => {
                      </h2>
                      <div className='details relative'>
                         <Image src={'/images/graduation.png'} width={512} height={527} className='rounded-[14px]' />
-                        <div className='absolute bottom-3 px-5'>
+                        <div className='absolute bottom-5 px-5'>
                              <h3 className='font-[500] text-[12px] md:text-[29px] leading-3 md:leading-[31.9px] mb-4'>Lorem Ipsum</h3>
-                             <span className='font-[400] text-[10px] md:text-[16px] leading-[27.2px] pb-2'>
+                             <span className='font-[300] text-[10px] md:text-[16px] leading-[27.2px] pb-2'>
                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
                              </span>
+                        </div>
+                        <div className='absolute bg-white w-[50px] h-[50px] top-20 right-[-25px]  flex justify-center items-center shadow-md rounded-full'>
+                            <FaPlay className=' ' />
                         </div>
                      </div>
                 </div>
