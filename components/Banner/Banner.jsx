@@ -17,8 +17,8 @@ const Banner = () => {
          
             </div>
             <div className='box z-[1] max-w-[800px] absolute top-[60%] left-10 translate-y-[-50%] mx-[50px]'>
-                <h2 className='text-[54px] font-[500] tracking-[1px] leading-[70.2px] mb-[30px] text-[#fff]'>Lorem ipsum dolor sit amet</h2>
-                <p className='text-[18px] font-[400] leading-[30.6px] text-[#fff]'>
+                <h2 className='text-[25px] md:text-[54px] font-[500] tracking-[1px] leading-[70.2px] mb-[30px] text-[#fff]'>Lorem ipsum dolor sit amet</h2>
+                <p className='text-[13px] md:text-[18px] font-[400] leading-[30.6px] text-[#fff]'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis. Pellentesque iaculis elit lorem, et varius ipsum dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst.
                 </p>
             </div>

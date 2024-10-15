@@ -8,7 +8,7 @@
   --max-width-sm: 1000px;
 
   --rgb: 50, 50, 50;
-  /* --primary-rgb:65,134,255; */
+
 
   --main: rgb(var(--rgb));
   --secondary: rgba(var(--rgb), 0.6);
@@ -33,18 +33,61 @@
 .menu_btn {
   font-size: 1.8rem;
   cursor: pointer;
-  color: var(--main);
+  color: bisque;
   display: none;
+  
 }
 
 .custom-gradient-overlay {
   background: linear-gradient(180deg, rgba(0, 42, 58, 0) 37.58%, rgba(30, 30, 30, 0.9) 100%);
 }
+
 .banner-gradient {
   background: linear-gradient(269.74deg, rgba(0, 43, 58, 0) 0.22%, rgba(30, 30, 30, 0.5) 99.78%);
 }
 
 
+
+.fade-image {
+  width: 100%;
+  height: 400px;
+
+  mask-image: linear-gradient(black, transparent);
+  -webkit-mask-image: linear-gradient(250deg, black 10%, transparent 80%);
+}
+
+.background-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('/images/details1.jpeg');
+  mask-image: linear-gradient(250deg, black 10%, transparent 80%);
+  -webkit-mask-image: linear-gradient(250deg, black 10%, transparent 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+
+.content {
+  text-align: center;
+}
+
+.details img{
+  mask-image: linear-gradient(250deg, black 10%, transparent 80%);
+  -webkit-mask-image: linear-gradient(180deg, black 10%, transparent 76%);
+}
+
+.footer-gradient-bg {
+  background: linear-gradient(#002A3ACC, #002A3ACC), 
+              url('/images/work.png'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70vh; 
+}
 @media (max-width:850px) {
   .menu_btn {
     display: block;
@@ -57,7 +100,7 @@
     justify-content: space-between;
   }
 
-  header ul{
+  header ul {
     position: absolute;
     top: 80%;
     left: 0;
@@ -71,14 +114,14 @@
     overflow: hidden;
   }
 
-  header ul li a{
+  header ul li a {
     display: block;
     padding: 20px 15px;
-    border-bottom:1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
     color: black !important;
-}
+  }
 
-header nav .menu_btn{
+  header nav .menu_btn {
     display: block;
-}
+  }
 }
