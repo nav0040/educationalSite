@@ -9,7 +9,7 @@ export function Insights() {
   ));
 
   return (
-    <div className="w-full h-full py-10 md:mt-36 mt-48">
+    <div className="w-full h-full py-10 md:mt-36 mt-56">
       <h2 className="max-w-7xl pl-10  mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
       Latest Insights
       </h2>
@@ -24,21 +24,22 @@ const data = [
    
   {
     
-    title: "React",
+    title: "",
     src: "/images/insights1.png",
 
   },
   {
-    title: "React Native",
+    title: "",
     src:"/images/insights2.png",
 
    
   },
   {
-    title: "Javascript",
+    title: "",
     src: "/images/insights3.png",
    
   },
+  
 
 
   
