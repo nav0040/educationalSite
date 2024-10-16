@@ -23,7 +23,7 @@ const Gallery = () => {
                         </div>
 
                         <div className='relative'>
-                            <Image src={'/images/gallery3.jpeg'} width={748} height={295} className='rounded-[12px] w-[360px] h-[400px]  md:w-auto  md:h-[370px] object-cover' />
+                            <Image src={'/images/gallery3.jpeg'} width={748} height={295} className='rounded-[12px] w-[380px] h-[400px]  md:w-[700px]  md:h-[370px] object-cover' />
 
                             <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/95 via-transparent to-transparent rounded-[12px]"></div>
 
