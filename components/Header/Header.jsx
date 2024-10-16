@@ -46,11 +46,11 @@ const Header = () => {
         background: visible || showMenu ? '#0B192C' : 'transparent',
         boxShadow: visible ? '2px 20px 30px var(--shadow-color)' : 'none'
       }}
-      className='w-[100%] fixed top-0 left-0 z-[100] select-none transition-all ease-in-out-[0.3s]'
+      className='w-[100vw] fixed top-0 left-0 z-[100] select-none transition-all ease-in-out-[0.3s]'
 
     >
-      <nav className='w-[100%] max-w-[--max-width] flex justify-around  items-center mx-auto py-[15px] px-[25px]'>
-        <Link href={'#'} className='logo flex items-center gap-3 text-[2.6rem] font-[700]'>
+      <nav className='w-[100vw] max-w-[--max-width] flex justify-around  items-center mx-auto py-[15px] px-[25px]'>
+        <Link href={'#'} className='logo flex md:items-center items-start gap-3 text-[2.6rem] font-[700]'>
           <Image src='/images/image2.png' width={134} height={42}  />
         </Link>
         <div className='menu_btn py-4 pr-3' onClick={() => setShowMenu(value => !value)}>

@@ -25,9 +25,12 @@ const Description = () => {
   return (
     <div className='m-10 mt-32 '>
         <div className='max-w-[903px] h-[206px] mx-8 '>
-            <h1 className='font-[400] text-[54px] leading-[68.04px] mb-8'>Lorem Ipsum </h1>
-            <span className='font-[400] text-[20px] leading-[34px]'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis. Pellentesque iaculis elit lorem, et varius ipsum dictum.
+            <h1 className='md:font-[400] font-[500]  text-[20px] md:text-[54px] leading-[68.04px] md:mb-8 mb-4'>Lorem Ipsum </h1>
+            <span className='font-[400] text-[15px]  md:text-[20px] leading-[20px] md:leading-[34px]'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Donec mattis velit nulla. In hac habitasse platea dictumst. 
+                Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis.
+                 Pellentesque iaculis elit lorem, et varius ipsum dictum.
 
             </span>
         </div>
