@@ -29,7 +29,7 @@ const Gallery = () => {
 
                             <div className='absolute inset-0 top-[57%] md:top-[60%] z-20 text-white p-4'>
                                 <h2 className=' md:text-2xl text-[16px] text-2xl font-bold'>Consectetur adipiscing elit</h2>
-                                <span className='block font-[300] text-white mt-2 md:text-[18px] text-[12px]'>
+                                <span className='block font-[300] text-white mt-2 md:text-[18px] text-[11px]'>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst.
                                 </span>
                             </div>
