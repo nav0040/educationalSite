@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
                 <div className='flex md:flex-row flex-col justify-center items-center'>
 
-                    <div className=' border-none md:border text-white border-gray-500 w-[510px] h-[600px] flex flex-col gap-10 justify-center items-center'>
+                    <div className='border-0 md:border text-white border-gray-500 w-[510px] h-[600px] flex flex-col gap-10 justify-center items-center'>
                         <div className='flex justify-center items-center gap-1 bg-[#183b48] px-3 py-4 rounded-md'>
                             <Image src='/images/footer1.png' width={20} height={20} />
                             <span>Lorem ipsum dolor sit amet</span>
@@ -44,7 +44,7 @@ const Footer = () => {
                         </div>
 
                     </div>
-                    <div className='border-none md:border text-white border-gray-500 md:border-l-0  w-[510px] h-[600px] flex flex-col gap-10 justify-center items-center'>
+                    <div className='border-0 md:border text-white border-gray-500 md:border-l-0  w-[510px] h-[600px] flex flex-col gap-10 justify-center items-center'>
                         <div className='flex justify-center items-center gap-1 bg-[#183b48] px-3 py-4 rounded-md w-[300px]'>
                             <span>Lorem</span>
                         </div>
@@ -59,7 +59,7 @@ const Footer = () => {
                         </div>
 
                     </div>
-                    <div className='border-none md:border border-gray-500 md:border-l-0 text-white   w-[510px] h-[600px] flex  flex-col justify-center items-start'>
+                    <div className='border-0 md:border border-gray-500 md:border-l-0 text-white   w-[510px] h-[600px] flex  flex-col justify-center items-start'>
                         <div className='flex  flex-col justify-start items-start md:px-16 px-24 gap-7'>
                             <h2 className='font-[500] text-[26px] leading-[15px]'>Contact Us</h2>
                             <span className='font-[300] text-[16px]'>Lorem Ipsum, Iso lorem, <br /> Iso Lorem Posum</span>
