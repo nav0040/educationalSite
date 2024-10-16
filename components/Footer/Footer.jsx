@@ -60,7 +60,7 @@ const Footer = () => {
 
                     </div>
                     <div className='border-none md:border border-gray-500 md:border-l-0 text-white   w-[510px] h-[600px] flex  flex-col justify-center items-start'>
-                        <div className='flex  flex-col justify-start items-start px-16 gap-7'>
+                        <div className='flex  flex-col justify-start items-start md:px-16 px-24 gap-7'>
                             <h2 className='font-[500] text-[26px] leading-[15px]'>Contact Us</h2>
                             <span className='font-[300] text-[16px]'>Lorem Ipsum, Iso lorem, <br /> Iso Lorem Posum</span>
                             <div className='flex flex-col'>
@@ -81,8 +81,8 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <div className='text-white md:px-20 pt-7 text-center '>
-                    <span>©{currentYear} Demo. All rights reserved.</span>
+                <div className='text-white md:px-16 px-14 pt-7 md:text-center '>
+                    <span className='text-[14px] md:text-16px]'>©{currentYear} Demo. All rights reserved.</span>
                 </div>
 
             </div>
