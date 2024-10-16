@@ -39,14 +39,14 @@ const About = () => {
                 <div className='md:w-[590px] h-[450px] md:h-[429px] flex flex-col gap-6 md:gap-16 md:px-5 px-12'>
                     <div className='border-l-4 px-8 border-black'>
                         <h3 className='font-[500] text-[17px] md:text-[26px] leading-[37.18px]'>Lorem ipsum</h3>
-                        <p className='  text-[12px] md:text-[15px] leading-[25.74px] font-[300]'>
+                        <p className='  text-[12px] md:text-[15px] leading-[18px] md:leading-[25.74px] font-[300]'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis. Pellentesque iaculis elit lorem.
                         </p>
                     </div>
                     <hr />
                     <div className='border-l-4 px-8 border-black'>
                         <h3 className='font-[500] text-[17px] md:text-[26px] leading-[37.18px]'>Lorem ipsum</h3>
-                        <p className=' md:text-[15px] text-[12px] leading-[25.74px] font-[300]'>
+                        <p className=' md:text-[15px] text-[12px] leading-[18px] md:leading-[25.74px] font-[300]'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis. Pellentesque iaculis elit lorem.
                         </p>
                     </div>
