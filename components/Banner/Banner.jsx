@@ -3,7 +3,7 @@ import React from 'react'
 
 const Banner = () => {
     return (
-        <section id='home' className='banner w-[100%] h-[100vh] overflow-hidden relative'>
+        <section id='home' className='banner w-[100vw] h-[100vh] overflow-hidden relative'>
             {/* <Image src={'/images/image1.jpeg'} width={1920} height={100} className='h-[700px] w-[1728px] object-cover md:object-fill banner-img' /> */}
             <div className="relative w-full h-[720px]">
                 <Image

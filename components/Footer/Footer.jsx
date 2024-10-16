@@ -10,12 +10,12 @@ const Footer = () => {
     return (
         <div>
             <div className='footer-gradient-bg flex md:flex-row flex-col  justify-between px-36 items-center'>
-                <div className='w-[500px] md:w-[771px] md:h-[201px] h-[100px] text-white'>
-                    <h1 className='font-[500] text-[20px] md:text-[46px] leading-[55.66px] mb-10'>Let’s work Together</h1>
-                    <span className='font-[300] text-[15px] md:text-[18px] leading-[34.8px]'>Lorem ipsum dolor sit amet consectetur. Mattis cursus nulla ornare tristique euismod rcu tristique nisl id nibh. viverra feugiat viverra.Lorem ipsum dolor sit amet consectetur</span>
+                <div className='w-[250px] md:w-[771px] md:h-[201px] h-[100px] text-white md:mt-0 mt-7'>
+                    <h1 className='font-[500] text-[17px] md:text-[46px] leading-[20px] md:leading-[55.66px] md:mb-10'>Let’s work Together</h1>
+                    <span className='font-[300] text-[13px] md:text-[18px] leading-[20px] md:leading-[34.8px]'>Lorem ipsum dolor sit amet consectetur. Mattis cursus nulla ornare tristique euismod rcu tristique nisl id nibh. viverra feugiat viverra.Lorem ipsum dolor sit amet consectetur</span>
                 </div>
-                <div className='my-12'>
-                    <button className='bg-[#fff] px-8 py-3 font-[500] rounded-md'>View Vacancies</button>
+                <div className='md:my-12 my-14 text-center'>
+                    <button className='bg-[#fff] md:px-8  md:py-3 px-20 text-[10px] md:text[15px] font-[500] rounded-md'>View Vacancies</button>
                 </div>
             </div>
             <div className='bg-[#002A3A]  pb-10'>
@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
                 <div className='flex md:flex-row flex-col justify-center items-center'>
 
-                    <div className=' border text-white border-gray-500 w-[510px] h-[600px] flex flex-col gap-10 justify-center items-center'>
+                    <div className=' border-none md:border text-white border-gray-500 w-[510px] h-[600px] flex flex-col gap-10 justify-center items-center'>
                         <div className='flex justify-center items-center gap-1 bg-[#183b48] px-3 py-4 rounded-md'>
                             <Image src='/images/footer1.png' width={20} height={20} />
                             <span>Lorem ipsum dolor sit amet</span>
@@ -44,7 +44,7 @@ const Footer = () => {
                         </div>
 
                     </div>
-                    <div className='border text-white border-gray-500 md:border-l-0  w-[510px] h-[600px] flex flex-col gap-10 justify-center items-center'>
+                    <div className='border-none md:border text-white border-gray-500 md:border-l-0  w-[510px] h-[600px] flex flex-col gap-10 justify-center items-center'>
                         <div className='flex justify-center items-center gap-1 bg-[#183b48] px-3 py-4 rounded-md w-[300px]'>
                             <span>Lorem</span>
                         </div>
@@ -59,7 +59,7 @@ const Footer = () => {
                         </div>
 
                     </div>
-                    <div className='border border-gray-500 md:border-l-0 text-white   w-[510px] h-[600px] flex  flex-col justify-center items-start'>
+                    <div className='border-none md:border border-gray-500 md:border-l-0 text-white   w-[510px] h-[600px] flex  flex-col justify-center items-start'>
                         <div className='flex  flex-col justify-start items-start px-16 gap-7'>
                             <h2 className='font-[500] text-[26px] leading-[15px]'>Contact Us</h2>
                             <span className='font-[300] text-[16px]'>Lorem Ipsum, Iso lorem, <br /> Iso Lorem Posum</span>

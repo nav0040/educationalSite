@@ -30,13 +30,13 @@ const About = () => {
 
             </div>
             <div className='flex md:flex-row flex-col justify-center  items-center my-6'>
-                <div className='w-[500px] md:w-[823px] h-[534px] px-16 mb-10'>
+                <div className='w-[400px] md:w-[823px] h-[534px] px-16 mb-10'>
                     <h1 className='font-[500] text-[18px] md:text-[54px] leading-[72.9px]'>Lorem ipsum dolor sit amet, consectetur </h1>
-                    <p className='font-[300] md:text-[15px] text-[12px] leading-[34px]'>
+                    <p className='font-[300] md:text-[13px] text-[12px] leading-[20px] md:leading-[34px]'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis. Pellentesque iaculis elit lorem, et varius ipsum dictum a. Etiam congue non sem et efficitur. Donec in dolor nec tellus iaculis sagittis. Sed sit amet aliquam augue. Praesent auctor, purus non convallis accumsan, nibh odio gravida felis, vitae mollis massa lectus a neque. Mauris mollis elit quis iaculis iaculis. Vestibulum molestie nisl eget aliquet scelerisque. Vivamus efficitur dui eget velit interdum, non dapibus nisi fringilla. Mauris fermentum venenatis volutpat. Quisque efficitur ultricies erat eget rutrum. Phasellus feugiat quam eget est dapibus, non eleifend justo fermentum. Sed et commodo arcu, id euismod dui.
                     </p>
                 </div>
-                <div className='w-[590px] h-[429px] flex flex-col gap-16 md:px-5 px-12'>
+                <div className='md:w-[590px] h-[450px] md:h-[429px] flex flex-col gap-6 md:gap-16 md:px-5 px-12'>
                     <div className='border-l-4 px-8 border-black'>
                         <h3 className='font-[500] text-[17px] md:text-[26px] leading-[37.18px]'>Lorem ipsum</h3>
                         <p className='  text-[12px] md:text-[15px] leading-[25.74px] font-[300]'>

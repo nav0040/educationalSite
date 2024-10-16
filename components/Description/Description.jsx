@@ -24,9 +24,9 @@ const Description = () => {
     ]
   return (
     <div className='m-10 mt-32 '>
-        <div className='max-w-[903px] h-[206px] mx-8 '>
+        <div className='max-w-[903px] h-[296px] mx-8 '>
             <h1 className='md:font-[400] font-[500]  text-[20px] md:text-[54px] leading-[68.04px] md:mb-8 mb-4'>Lorem Ipsum </h1>
-            <span className='font-[400] text-[15px]  md:text-[20px] leading-[20px] md:leading-[34px]'>
+            <span className='font-[300] text-[15px]  md:text-[20px] leading-[20px] md:leading-[34px]'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Donec mattis velit nulla. In hac habitasse platea dictumst. 
                 Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis.
@@ -35,15 +35,15 @@ const Description = () => {
             </span>
         </div>
 
-        <div className='flex flex-col md:flex-row md:justify-center items-center mx-8 my-10 gap-[10px]'>
+        <div className='flex flex-col md:flex-row md:justify-center items-center mx-8  md:my-10 gap-[10px]'>
             
             {
                 description.map((des)=>(
-                    <div key={des.id} className={`${des.id === 3 ? 'bg-[#002A3A] text-white': 'bg-[#ECFAFF] text-black'}  w-[496px] h-[519px] rounded-md flex flex-col justify-start p-10 gap-10`}>
-                       <span className={`font-[600] text-[36px] leading-[39px]`}>0{des.id}</span>
+                    <div key={des.id} className={`${des.id === 3 ? 'bg-[#002A3A] text-white': 'bg-[#ECFAFF] text-black'} w-[300px]  md:w-[496px] md:h-[519px] rounded-md flex flex-col justify-start p-10 gap-10`}>
+                       <span className={`font-[600] text-[20px] md:text-[36px] leading-[20px]  md:leading-[39px]`}>0{des.id}</span>
                        <hr  />
-                       <h2 className='font-[600] text-[28px] leading-[35.28px]'>{des.title}</h2>
-                       <span>{des.content}</span>
+                       <h2 className='font-[600] text-[21px] md:text-[28px] leading-[35.28px]'>{des.title}</h2>
+                       <span className='text-[12px] md:text-[15px]'>{des.content}</span>
 
                     </div>
                 ))

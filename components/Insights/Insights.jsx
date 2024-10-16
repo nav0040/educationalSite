@@ -9,7 +9,7 @@ export function Insights() {
   ));
 
   return (
-    <div className="w-full h-full py-10 md:mt-36 mt-56">
+    <div className="w-full h-full py-10 md:mt-36 mt-72">
       <h2 className="max-w-7xl pl-10  mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
       Latest Insights
       </h2>
